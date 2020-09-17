@@ -40,11 +40,11 @@ positional arguments:
 ## Запуск
 
 ```
-gradle run --args='ARGS'
+./gradlew run --args='ARGS'
 ```
 
 Например:
 ```
-gradle run --args='"abcdef" --brackets=[( -c'
+./gradlew run --args='"abcdef" --brackets=[( -c'
 a[b(c[]d)e]f
 ```
